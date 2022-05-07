@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUI</title>
+    <link rel="stylesheet" href="./EUI.css">
+    <link rel="stylesheet" href="./EUIDocument.css">
+</head>
+
+<body>
+    <div class="e-nav bg-c nav">
+        <h1 class="logo">EUI</h1>
+        <a href="javascript:;" class="e-nav-item">文档</a>
+        <a href="javascript:;" class="e-nav-item">示例</a>
+        <a href="javascript:;" class="e-nav-item">反馈</a>
+        <input type="text" class="e-search" placeholder="请输入搜索内容">
+    </div>
+    <div class="con">
+        <div class="list">
+            <ul>
+                <h3 class="e-list-title c">基础说明</h3>
+                <li><a href="#head">产品介绍</a></li>
+                <li><a href="#down">引入方式</a></li>
+                <h3 class="e-list-title c">页面元素</h3>
+                <li><a href="#cont">布局</a></li>
+                <li><a href="#bg">背景颜色</a></li>
+                <li><a href="#tran">动画</a></li>
+                <li><a href="#btns">按钮</a></li>
+                <li><a href="#form">表单</a></li>
+                <li><a href="#nav">导航</a></li>
+                <li><a href="#prg">进度条</a></li>
+                <li><a href="#search">搜索框</a></li>
+                <li><a href="#table">表格</a></li>
+                <li><a href="#footer">底部</a></li>
+                <h3 class="e-list-title c">小技巧</h3>
+                <li><a href="#triang">三角形</a></li>
+                <li><a href="#circle">圆形</a></li>
+                <li><a href="#disable">文字不可选中</a></li>
+
+            </ul>
+        </div>
+        <div class="main">
+            <div class="main-con">
+                <h2 id="head">产品介绍</h2>
+                <p>
+                    EUI是一套国内开发并且开源的 Web UI 解决方案 ，采用自身经典的模块化规范，并遵循原生 HTML/CSS/JS 的开发方式，极易上手，拿来即用。其风格简约轻盈，而组件优雅丰盈，从源代码到使用方法的每一处细节都经过精心雕琢，非常适合网页界面的快速开发。准确地说，它更多是面向后端开发者，你无需涉足前端的各种工具，只需面对浏览器本身，让一切你所 需要的元素与交互，从这里信手拈来。
+                </p>
+            </div>
+            <div class="main-con">
+                <h2>兼容性和面向场景</h2>
+                <p>
+                    EUI 兼容人类正在使用的全部浏览器（IE6/7除外），可作为 Web 界面速成开发方案。
+                </p>
+            </div>
+            <div class="main-con">
+                <h2 id="down">引入方式</h2>
+                <p class="into">
+
+
+                </p>
+            </div>
+            <div class="main-con">
+                <h2 id="cont">布局</h2>
+                <p>
+                    1.e-container-aroun&nbsp;&nbsp;&nbsp;div横向排列平均分配剩余空间
+                    <br> 2.e-container-between&nbsp;&nbsp;&nbsp;div横向排列紧贴两边分配剩余空间
+                    <br>3.e-container-center&nbsp;&nbsp;&nbsp;div居中分布
+
+                </p>
+            </div>
+            <div class="main-con">
+                <h2 id="bg">背景颜色</h2>
+                <p>
+                    1.e-bg-red&nbsp;&nbsp;&nbsp;红色背景
+                    <br> 2.e-bg-orange&nbsp;&nbsp;&nbsp;橙色背景
+                    <br>3.e-bg-green&nbsp;&nbsp;&nbsp;绿色背景
+                    <br>4.e-bg-blue&nbsp;&nbsp;&nbsp;蓝色背景
+                    <br>5.e-bg-black&nbsp;&nbsp;&nbsp;黑色背景
+                </p>
+            </div>
+            <div class="main-con">
+                <h2 id="tran">CSS3动画</h2>
+                <p>
+                    1.e-anim-down&nbsp;&nbsp;&nbsp;经过时div向下移动10px
+                    <br> 2.e-anim-up&nbsp;&nbsp;&nbsp;经过时div向上移动10px
+                    <br>3.e-anim-left&nbsp;&nbsp;&nbsp;经过时div向左移动10px
+                    <br>4.e-anim-right&nbsp;&nbsp;&nbsp;经过时div向右移动10px
+                </p>
+            </div>
+            <div class="main-con">
+                <h2 id="btns">按钮</h2>
+                <p>
+                    1.e-btn&nbsp;&nbsp;&nbsp;原始按钮
+                    <br> 2.e-btn-green&nbsp;&nbsp;&nbsp;普通绿色按钮
+                    <br>3.e-btn-red &nbsp;&nbsp;&nbsp;普通红色按钮
+                    <br>4.e-btn-blue&nbsp;&nbsp;&nbsp;普通蓝色按钮
+                    <br>5.e-btn-orange&nbsp;&nbsp;&nbsp;普通橙色按钮
+
+                </p>
+                <div>
+                    <input type="button" value="原始按钮" class="e-btn">
+                    <input type="button" value="原始按钮" class="e-btn-green">
+                    <input type="button" value="原始按钮" class="e-btn-red">
+                    <input type="button" value="原始按钮" class="e-btn-blue">
+                    <input type="button" value="原始按钮" class="e-btn-orange">
+                </div>
+            </div>
+            <div class="main-con">
+                <h2>按钮大小</h2>
+                <p>
+                    1.e-btn-lg&nbsp;&nbsp;&nbsp;大型按钮
+                    <br> 2.e-btn-sm&nbsp;&nbsp;&nbsp;迷你按钮
+
+                </p>
+                <div>
+                    <input type="button" class="e-btn-lg e-btn-green" value="大型按钮">
+                    <input type="button" class="e-btn-sm e-btn-green" value="迷你按钮">
+                </div>
+            </div>
+            <div class="main-con">
+                <h2>流体按钮</h2>
+                <p>
+                    e-btn-blue e-btn-primary&nbsp;&nbsp;&nbsp;流体按钮
+                </p>
+                <div>
+                    <input type="button" class="e-btn-blue  e-btn-primary " value="流体按钮">
+                </div>
+            </div>
+            <div class="main-con">
+                <h2 id="form">表单</h2>
+                <p>
+                    1.e-form&nbsp;&nbsp;&nbsp;给form整个表单设置大小，默认为w:1000px高度自适应
+                    <br> 2.e-form-item&nbsp;&nbsp;&nbsp;给每个表单项设置大小，默认为父元素w:80%,h:80px
+                    <br>3.e-form-label&nbsp;&nbsp;&nbsp;设置表单项前的文本
+                    <br>4.e-form-text&nbsp;&nbsp;&nbsp;普通输入框
+                </p>
+                <p class="form"></p>
+                <div>
+                    <form class="e-form">
+                        <div class="e-form-item">
+                            <label for="" class="e-form-label">文字</label>
+                            <input type="text" class="e-form-text">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="main-con">
+                <h2 id="nav">导航</h2>
+                <p>
+                    1.e-nav&nbsp;&nbsp;&nbsp;默认导航样式
+                    <br> 2.e-nav-item&nbsp;&nbsp;&nbsp;默认导航内容样式
+                </p>
+                <div>
+                    <div class="e-nav ">
+                        <a href="javascript:;" class="e-nav-item">导航项</a>
+                        <a href="javascript:;" class="e-nav-item">导航项</a>
+                        <a href="javascript:;" class="e-nav-item">导航项</a>
+                        <a href="javascript:;" class="e-nav-item">导航项</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main-con">
+                <h2 id="prg">进度条</h2>
+                <p>
+                    1.e-progress&nbsp;&nbsp;&nbsp;默认标准进度条外部
+                    <br> 2.e-progress-bar&nbsp;&nbsp;&nbsp;默认标准进度条内部
+                </p>
+                <p class="pro"></p>
+                <div>
+                    <div class="e-progress">
+                        <div class="e-progress-bar "></div>
+                    </div>
+                </div>
+                <p>
+                    1.e-progress-big&nbsp;&nbsp;&nbsp;大型进度条外部
+                    <br> 2.e-progress-bar-big&nbsp;&nbsp;&nbsp;大型进度条内部
+                </p>
+                <p class="pbig"></p>
+                <div>
+                    <div class="e-progress-big">
+                        <div class="e-progress-bar-big "></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main-con">
+                <h2 id="search">搜索框</h2>
+                <p>
+                    1.e-search&nbsp;&nbsp;&nbsp;原始搜索框
+                    <br> 2.e-search-black&nbsp;&nbsp;&nbsp;黑色搜索框
+                    <br> 3.e-search-orange&nbsp;&nbsp;&nbsp;橙色搜索框
+                    <br> 4.e-search-blue&nbsp;&nbsp;&nbsp;蓝色搜索框
+                    <br> 5.e-search-red&nbsp;&nbsp;&nbsp;红色搜索框
+                </p>
+                <div>
+                    <input type="text" class="e-search-black">
+                    <input type="text" class="e-search-orange">
+                    <input type="text" class="e-search-blue">
+                    <input type="text" class="e-search-red">
+                </div>
+            </div>
+            <div class="main-con">
+                <h2 id="table">表格</h2>
+                <p>
+                    e-table &nbsp;&nbsp;&nbsp;设置表格默认样式，指定给table
+                </p>
+                <p class="table"></p>
+                <div>
+                    <table class="e-table">
+                        <colgroup>
+                            <col width="150">
+                            <col width="200">
+                            <col width="100">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <td>示例</td>
+                                <td>示例</td>
+                                <td>示例</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>示例</td>
+                                <td>示例</td>
+                                <td>示例</td>
+                            </tr>
+                            <tr>
+                                <td>示例</td>
+                                <td>示例</td>
+                                <td>示例</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="main-con">
+                <h2 id="footer">底部</h2>
+                <p>
+                    1.e-footer&nbsp;&nbsp;&nbsp;EUI默认底部样式，指定给底部div
+                </p>
+                <div>
+                    <div class="e-footer ">
+                        <span>版权信息©EUI.footer.yumiwork</span> </div>
+                </div>
+            </div>
+            <div class="main-con">
+                <h2 id="triang">三角形</h2>
+                <p>
+                    1.e-triangle-right&nbsp;&nbsp;&nbsp;EUI默认箭头向右三角形
+                    <br>2.e-triangle-left&nbsp;&nbsp;&nbsp;EUI默认箭头向左三角形
+                    <br>3.e-triangle-top&nbsp;&nbsp;&nbsp;EUI默认箭头向上三角形
+                    <br>4.e-triangle-bottom&nbsp;&nbsp;&nbsp;EUI默认箭头向下三角形
+
+                </p>
+                <div class="t">
+                    <div class="e-triangle-right"></div>
+                    <div class="e-triangle-left"></div>
+                    <div class="e-triangle-top"></div>
+                    <div class="e-triangle-bottom"></div>
+                </div>
+            </div>
+            <div class="main-con">
+                <h2 id="circle">圆形</h2>
+                <p>
+                    1.e-circle&nbsp;&nbsp;&nbsp;EUI默认实心圆形
+                    <br>2.e-circle-border&nbsp;&nbsp;&nbsp;EUI默认空心边框圆形
+
+                </p>
+                <div class="t">
+                    <div class="e-circle"></div>
+                    <div class="e-circle-border"></div>
+                </div>
+            </div>
+            <div class="main-con">
+                <h2 id="disable">文字不可选中</h2>
+                <p>
+                    1.e-disableSelection&nbsp;&nbsp;&nbsp;文字不可选中
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <a href="#head" class="goTop">
+        返回顶部
+    </a>
+    <div class="footer">
+        <span> 版权所有 玉米工作室EUI研发设计中心©2022</span>
+    </div>
+
+    <script>
+        function into(eve, text) {
+            let into = document.querySelector(eve);
+            console.log(into);
+            into.innerText = text;
+        }
+        into('.into', `<!-- 引入 EUI.css -->
+<link rel="stylesheet" href="./css/EUI.css">
+<!-- 引入EUI.js -->
+<script src="./EUI.js">
+`);
+        into('.form', `<form class="e-form">
+                        <div class="e-form-item">
+                            <label for="" class="e-form-label">文字</label>
+                            <input type="text" class="e-form-text">
+                        </div>
+                    </form>`);
+        into(".pbig", ` <div class="e-progress-big">
+                        <div class="e-progress-bar-big "></div>
+                    </div>`);
+        into('.pro', `                    <div class="e-progress">
+                        <div class="e-progress-bar "></div>
+                    </div>
+`);
+        into('.table', `<table class="e-table">
+                        <colgroup>
+                            <col width="150">
+                            <col width="200">
+                            <col width="100">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <td>示例</td>
+                                <td>示例</td>
+                                <td>示例</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>示例</td>
+                                <td>示例</td>
+                                <td>示例</td>
+                            </tr>
+                            <tr>
+                                <td>示例</td>
+                                <td>示例</td>
+                                <td>示例</td>
+                            </tr>
+                        </tbody>
+                    </table>`);
+    </script>
+</body>
+
+</html>
