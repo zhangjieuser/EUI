@@ -165,6 +165,8 @@ table {
     align-items: center;
 }
 
+.e-panel {}
+
 
 /* e-color */
 
@@ -433,4 +435,96 @@ table {
     background-color: #ff5722;
     color: #fff;
     outline: none;
+}
+
+
+/* footer */
+
+.e-footer {
+    width: 100%;
+    height: 60px;
+    background-color: #393d49;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-footer p {
+    text-align: center;
+    color: rgb(197, 194, 194);
+}
+
+
+/* triangle */
+
+.e-triangle-right {
+    border: 20px solid rgba(0, 0, 0, 0);
+    width: 0;
+    height: 0;
+    border-left: 20px solid #ff5722;
+}
+
+.e-triangle-left {
+    border: 20px solid rgba(0, 0, 0, 0);
+    width: 0;
+    height: 0;
+    border-right: 20px solid #ff5722;
+}
+
+.e-triangle-top {
+    border: 20px solid rgba(0, 0, 0, 0);
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #ff5722;
+}
+
+.e-triangle-bottom {
+    border: 20px solid rgba(0, 0, 0, 0);
+    width: 0;
+    height: 0;
+    border-top: 20px solid #ff5722;
+}
+
+
+/* circle */
+
+.e-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #01AAED;
+}
+
+.e-circle-border {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #01AAED;
+    border-radius: 50%;
+}
+
+
+/* disable selection */
+
+.e-disableSelection {
+    user-select: none;
+}
+
+
+/* anim */
+
+.e-anim-down:hover {
+    transform: translateY(-10px);
+}
+
+.e-anim-up:hover {
+    transform: translateY(10px);
+}
+
+.e-anim-left:hover {
+    transform: translateX(-10px);
+}
+
+.e-anim-right:hover {
+    transform: translateX(10px);
 }
